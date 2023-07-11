@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/portfolio-app-react/static/css/main.bace655c.css",
-    "main.js": "/portfolio-app-react/static/js/main.cd94dfaf.js",
-    "static/js/787.3c86a6c9.chunk.js": "/portfolio-app-react/static/js/787.3c86a6c9.chunk.js",
-    "static/media/Linkedin_headshot-min.jpg": "/portfolio-app-react/static/media/Linkedin_headshot-min.74b455e1cb83153bc47b.jpg",
-    "static/media/linkedin-logo.png": "/portfolio-app-react/static/media/linkedin-logo.34ebeb651487d26c3413.png",
-    "index.html": "/portfolio-app-react/index.html",
-    "main.bace655c.css.map": "/portfolio-app-react/static/css/main.bace655c.css.map",
-    "main.cd94dfaf.js.map": "/portfolio-app-react/static/js/main.cd94dfaf.js.map",
-    "787.3c86a6c9.chunk.js.map": "/portfolio-app-react/static/js/787.3c86a6c9.chunk.js.map"
+    "main.css": "/my-portfolio-app/static/css/main.bace655c.css",
+    "main.js": "/my-portfolio-app/static/js/main.425ee23a.js",
+    "static/js/787.3c86a6c9.chunk.js": "/my-portfolio-app/static/js/787.3c86a6c9.chunk.js",
+    "static/media/Linkedin_headshot-min.jpg": "/my-portfolio-app/static/media/Linkedin_headshot-min.74b455e1cb83153bc47b.jpg",
+    "static/media/linkedin-logo.png": "/my-portfolio-app/static/media/linkedin-logo.34ebeb651487d26c3413.png",
+    "index.html": "/my-portfolio-app/index.html",
+    "main.bace655c.css.map": "/my-portfolio-app/static/css/main.bace655c.css.map",
+    "main.425ee23a.js.map": "/my-portfolio-app/static/js/main.425ee23a.js.map",
+    "787.3c86a6c9.chunk.js.map": "/my-portfolio-app/static/js/787.3c86a6c9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bace655c.css",
-    "static/js/main.cd94dfaf.js"
+    "static/js/main.425ee23a.js"
   ]
 }
