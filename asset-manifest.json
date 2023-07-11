@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/adornala16382.github.io/static/css/main.bace655c.css",
-    "main.js": "/adornala16382.github.io/static/js/main.ff674557.js",
-    "static/js/787.3c86a6c9.chunk.js": "/adornala16382.github.io/static/js/787.3c86a6c9.chunk.js",
-    "static/media/Linkedin_headshot-min.jpg": "/adornala16382.github.io/static/media/Linkedin_headshot-min.74b455e1cb83153bc47b.jpg",
-    "static/media/linkedin-logo.png": "/adornala16382.github.io/static/media/linkedin-logo.34ebeb651487d26c3413.png",
-    "index.html": "/adornala16382.github.io/index.html",
-    "main.bace655c.css.map": "/adornala16382.github.io/static/css/main.bace655c.css.map",
-    "main.ff674557.js.map": "/adornala16382.github.io/static/js/main.ff674557.js.map",
-    "787.3c86a6c9.chunk.js.map": "/adornala16382.github.io/static/js/787.3c86a6c9.chunk.js.map"
+    "main.css": "/my-portfolio-react-app/static/css/main.bace655c.css",
+    "main.js": "/my-portfolio-react-app/static/js/main.d4988a9c.js",
+    "static/js/787.3c86a6c9.chunk.js": "/my-portfolio-react-app/static/js/787.3c86a6c9.chunk.js",
+    "static/media/Linkedin_headshot-min.jpg": "/my-portfolio-react-app/static/media/Linkedin_headshot-min.74b455e1cb83153bc47b.jpg",
+    "static/media/linkedin-logo.png": "/my-portfolio-react-app/static/media/linkedin-logo.34ebeb651487d26c3413.png",
+    "index.html": "/my-portfolio-react-app/index.html",
+    "main.bace655c.css.map": "/my-portfolio-react-app/static/css/main.bace655c.css.map",
+    "main.d4988a9c.js.map": "/my-portfolio-react-app/static/js/main.d4988a9c.js.map",
+    "787.3c86a6c9.chunk.js.map": "/my-portfolio-react-app/static/js/787.3c86a6c9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bace655c.css",
-    "static/js/main.ff674557.js"
+    "static/js/main.d4988a9c.js"
   ]
 }
