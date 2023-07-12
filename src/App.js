@@ -46,7 +46,7 @@ function returnMyGithubInfo(name, description, url){
     <div className="project-container">
         <h3 className="project-name">{name}</h3>
         <p className="about-me-description">{description}</p>
-        <a className="project-link" href={url}>{url}</a>
+        <a className="project-link" href={url} target="_blank" rel="noreferrer">{url}</a>
     </div>
   );
 }
