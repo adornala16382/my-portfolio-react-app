@@ -1,6 +1,7 @@
 import linkedInProfilePic from './images/Linkedin_headshot-min.jpg';
 import linkedInLogo from './images/linkedin-logo.png';
 import githubLogo from './images/github-logo.png';
+import mailIcon from './images/mailIcon.png';
 import './App.css';
 import React, { useEffect, useState } from 'react';
 
@@ -44,9 +45,8 @@ function iterateMyGitHubInfo(){
 function returnMyGithubInfo(name, description, url){
   return (
     <div className="project-container">
-        <h3 className="project-name">{name}</h3>
-        <p className="about-me-description">{description}</p>
-        <a className="project-link" href={url} target="_blank" rel="noreferrer">{url}</a>
+        <h3 className="project-name"><a className="project-name" href={url} target="_blank" rel="noreferrer">{name}</a></h3>
+        <p className="project-description">{description}</p>
     </div>
   );
 }
@@ -59,11 +59,47 @@ function App() {
       setGithubInfo(data);
     });
   }, []);
+
+  const [isChecked, setIsChecked] = useState(false);
+
+  const handleToggle = () => {
+    setIsChecked(!isChecked);
+    const resumeCss = document.querySelector('.resume');
+    const appHeaderCss = document.querySelector('.App-header');
+    const aboutMeCss = document.querySelector('.about-me');
+    const projectSectionCss = document.querySelector('.project-section');
+    if(isChecked){
+      resumeCss.style.backgroundColor = '#9DB2BF';
+      resumeCss.style.color = 'black';
+      resumeCss.style.borderColor = 'black';
+      appHeaderCss.style.backgroundColor = '#27374D';
+      aboutMeCss.style.backgroundColor = '#526D82';
+      projectSectionCss.style.backgroundColor = '#526D82';
+    }
+    else{
+      resumeCss.style.backgroundColor = '#12171e';
+      resumeCss.style.color = 'white';
+      resumeCss.style.borderColor = 'white';
+      appHeaderCss.style.backgroundColor = '#12171e';
+      aboutMeCss.style.backgroundColor = '#171e24';
+      projectSectionCss.style.backgroundColor = '#171e24';
+    }
+  };
+
   return (
     <div className="App">
       <div className="wrapper">
 
         <header className="App-header">
+          <p className="body"><strong> Dark Mode Toggle</strong></p>
+            <label className="toggle-switch">
+              <input
+                type="checkbox"
+                checked={isChecked}
+                onChange={handleToggle}
+              />
+              <span className="slider"></span>
+            </label>
           <div className="grow">
             <div className="circular-portrait">
               <img src={linkedInProfilePic} alt="linkedIn headshot" />
@@ -74,10 +110,11 @@ function App() {
 
         <div className="about-me">
           <h3 className="about-me-title">About Me</h3>
-          <p className="about-me-description">Hey, I'm Aryan Dornala. I am a student at Rutgers University currently studying Computer Science :)</p>
+          <p className="about-me-description">Hey, I'm Aryan Dornala. I am a student at Rutgers University currently studying Computer Science (major) and Data Science (minor)</p>
           <div className="grow">
             <a href="https://www.linkedin.com/in/aryandornala/" target="_blank" rel="noreferrer"><img className="social" src={linkedInLogo} alt="linkedIn logo"></img></a>
             <a href="https://github.com/adornala16382" target="_blank" rel="noreferrer"><img className="social" src={githubLogo} alt="github logo"></img></a>
+            <a href="mailto:aryand8402@gmail.com" target="_blank" rel="noreferrer"><img className="social" src={mailIcon} alt="mail icon"></img></a>
           </div>
         </div>
 
@@ -137,7 +174,7 @@ function App() {
 
           <div className="project-section">
             <h3 className="project-title">My projects</h3>
-            <p className="about-me-description">dynamically loaded!</p>
+            <p className="about-me-description">The following are dynamically loaded from my github!</p>
             {githubInfo}
           </div>
         </div>
